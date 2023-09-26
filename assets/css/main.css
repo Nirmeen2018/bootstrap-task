@@ -1,0 +1,82 @@
+:root{
+    --mainColor:blueviolet;
+    margin: 0;
+}
+.button-add{    
+    width: 13%;
+    height: 36px;
+}
+.button-add button{
+    background-color: #05b205;
+}
+.spikenode{
+    width: 15% !important;
+    background-color:rgb(64, 17, 109) ;
+}
+.title{
+    color:var(--mainColor)
+}
+.dashboard {
+    width: 85% !important;
+}
+.get-started,.recent-run,.recent-run button:first-child{
+    background-color: rgb(255, 255, 255);
+}
+
+.job button,.run  button,.playbook button ,.people button {
+    background-color:var(--mainColor);
+    
+}
+.get-started h3{
+    font-size: 20px !important;
+}
+.recent-run h3{
+    font-size: 20px !important;
+
+}
+.get-started h4{
+    font-size: 15px !important;
+}
+.get-started p{
+    font-size: 11px;
+}
+.get-started img{
+    width:90px;
+    height: 90px;
+}
+table {
+    font-family: arial, sans-serif;
+    width: 100%;
+    text-align: center;
+    font-size:11px ;
+  }
+  th{
+    font-size: 15px;
+    padding: 8px;
+  }
+  td, th {
+    width:150px;
+  }
+ 
+.circle{
+    height: 25px !important;
+    width: 25px !important;
+   
+}
+td select{
+    background-color:var(--mainColor);
+    color:white
+}
+
+.list{
+    height: 60%;
+}
+.loading{
+    height: 1% !important;
+}
+hr{
+    height: 2px;
+}
+.footersection{
+height: 10%;
+}
