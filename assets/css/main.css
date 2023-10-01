@@ -2,8 +2,7 @@
     --mainColor:blueviolet;
     margin: 0;
 }
-.button-add{    
-    width: 13%;
+.button-add{   
     height: 36px;
 }
 .button-add button{
@@ -27,6 +26,8 @@
     background-color:var(--mainColor);
     
 }
+
+
 .get-started h3{
     font-size: 20px !important;
 }
@@ -61,7 +62,15 @@ table {
 .circle{
     height: 25px !important;
     width: 25px !important;
+    margin-left: auto;
    
+}
+.circle-div{
+    padding: 0;
+}
+.number{
+    text-align:left; 
+     padding:5px;  
 }
 td select{
     background-color:var(--mainColor);
@@ -80,3 +89,27 @@ hr{
 .footersection{
 height: 10%;
 }
+
+
+@media screen and  (min-width: 1200px) {
+    .job,.run,.people,.playbook{
+        margin-left:5px !important;
+    }
+    .job,.run,.playbook,.people{
+        width: 24.5% !important;
+    }
+    
+
+}
+ @media screen and (min-width:799px) and (max-width: 992px) {
+    .spikenode{
+        width: 100% !important;
+        height: 60px !important;
+       overflow:  scroll !important;
+        background-color:rgb(64, 17, 109) ;
+    }
+    .imgCircle{
+      width: 10px !important;
+      height: 10px !important;
+    }
+} 

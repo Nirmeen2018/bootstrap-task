@@ -12,261 +12,321 @@
     <title>Document</title>
 </head>
 <body>
-    <div class = "page d-flex overflow-hidden ">
-       <div class="spikenode   w-25 ">
-        <div class="  border-bottom pt-3 ps-3 pb-1 border-light-subtle  w-100">
-            <h4 class="text-light fs-5  opacity-75">SPIKENODE</h4>
+    <div class = "page  overflow-hidden ">
+        <div class="row">
+            
+       <div class=" spikenode col-md-4 ">
+        <div class=" titles border-bottom pt-3 ps-3 pb-1 border-light-subtle  w-100">
+            <h4 class="text-light   opacity-75">SPIKENODE</h4>
         </div>
         
         <div>
-            <img  class="w-25 h-25  border border-0 p-2  rounded-circle" 
+            <img  class="w-25 h-25  border border-0 p-2  rounded-circle imgCircle" 
             src="assets/img/james-person-1.jpg"/>
             <span class="text-light fs-6 p-2 m-1 opacity-50 ">Johnny</span>
             <i class="fa-solid fa-angle-right text-light fs-6 p-2 opacity-50"></i>
         </div>
-        <div class="list m-1">
-            <ul class="list-unstyled m-1 p-2">
-                <li class="text-light fs-6 my-4 opacity-100">
-                    <i class="fa-solid fa-table-cells-large me-1 "></i>
+        
+            <div class="list m-1">
+                <ul class="list-unstyled  m-1 p-2">
+                    <li class="text-light  fs-6 my-4 opacity-100">
+                        <i class="fa-solid fa-table-cells-large me-1 "></i>
+                        <span>
+                        Dashboard
+                    </span>
+                  </li>
+                    <li class="text-light fs-6 my-4 opacity-50 ">
+                        <i class="fa-solid fa-layer-group me-1 "></i>      
                     <span>
-                    Dashboard
-                </span>
-              </li>
-                <li class="text-light fs-6 my-4 opacity-50 ">
-                    <i class="fa-solid fa-layer-group me-1 "></i>      
-                <span>
-                   Hosts
-                </span></li>
-                <li class="text-light fs-6 my-4 opacity-50">
-                    <i class="fa-regular fa-square-caret-right me-1 "></i>          
-                              <span>
-                    Playbook
-                </span></li>
-                <li class="text-light fs-6 my-4 opacity-50">
-                    <i class="fa-solid fa-briefcase me-1 "></i>
-                    <span>
-                    Jobs
-                </span></li>
-                <li class="text-light fs-6 my-4 opacity-50">
-                    <i class="fa-regular fa-square-caret-right me-1 "></i>     
-             <span>
-                    Run
-                </span></li>
-                <li class="text-light fs-6 my-4  opacity-50">
-                    <i class="fa-solid fa-users me-1 "></i>
-                    <span>
-                    People
-                </span></li>
-                <li class="text-light fs-6 my-4 opacity-50">
-                    <i class="fa-solid fa-sliders me-1 "></i>
+                       Hosts
+                    </span></li>
+                    <li class="text-light fs-6 my-4 opacity-50">
+                        <i class="fa-regular fa-square-caret-right me-1 "></i>          
+                                  <span>
+                        Playbook
+                    </span></li>
+                    <li class="text-light fs-6 my-4 opacity-50">
+                        <i class="fa-solid fa-briefcase me-1 "></i>
+                        <span>
+                        Jobs
+                    </span></li>
+                    <li class="text-light fs-6 my-4 opacity-50">
+                        <i class="fa-regular fa-square-caret-right me-1 "></i>     
                  <span>
-                    Setting 
-                </span></li>
-            </ul>
-        </div>
-        <div>
-            <ul class="list-unstyled m-1 p-2">
-                <li class="text-light fs-6 my-2 opacity-50">
-                    <i class="fa-solid fa-circle-question me-1 "></i>
-                    <spsn>Help Center</spsn>
-                </li>
-                <li class="text-light fs-6 my-2 mx-0 opacity-50">
-                    <i class="fa-solid fa-circle-question me-1 "></i>
-                    <span>Sign Out</span>
-                </li>
-            </ul>
-        </div>
-        <div class="text-light fs-6 my-2 position-relative w-100 opacity-50">
-            <i class="fa-solid fa-angles-left position-absolute end-0"></i>
-        </div>
-        <div class=" h-25 my-5 w-100 ">
-            <hr class="text-light"/>
-            <div class="d-flex justify-content-evenly">
-                <span  class="text-light fs-6 p-2  opacity-50 ">
-                23 of 200 <span class="text-light">Runs</span></span>
-                <i class="fa-solid fa-gear  text-light fs-6 p-2 opacity-50"></i>
+                        Run
+                    </span></li>
+                    <li class="text-light fs-6 my-4  opacity-50">
+                        <i class="fa-solid fa-users me-1 "></i>
+                        <span>
+                        People
+                    </span></li>
+                    <li class="text-light fs-6 my-4 opacity-50">
+                        <i class="fa-solid fa-sliders me-1 "></i>
+                     <span>
+                        Setting 
+                    </span></li>
+                </ul>
             </div>
-            <div class=" loading  m-3 mt-0 d-flex">
-                <div class="w-25  bg-light"></div>
-                <div class="w-75 bg-light  opacity-50"></div>
-               
+            <div>
+                <ul class="list-unstyled m-1 p-2">
+                    <li class="text-light fs-6 my-2 opacity-50">
+                        <i class="fa-solid fa-circle-question me-1 "></i>
+                        <spsn>Help Center</spsn>
+                    </li>
+                    <li class="text-light fs-6 my-2 mx-0 opacity-50">
+                        <i class="fa-solid fa-circle-question me-1 "></i>
+                        <span>Sign Out</span>
+                    </li>
+                </ul>
             </div>
-            <hr class="text-light"/>
-        </div>
-       </div>
-       <div class="dashboard  container w-75 p-5 bg-body-secondary">
-       <div class=" header  mb-3 d-flex justify-content-between">
-        <h2 class="title">Dashboard</h2>
-        <div class="btn-group button-add">
-        <button class=" border-0 border-end rounded-start-1 ">
-            <i class="fa fa-plus text-light "></i>
-            <span class=" border-opacity-100 text-light border-light-subtle ">
-                Add-job</span></button>
-            <button class=" border-0 rounded-end-1 ">
-                <i class="fa-solid fa-chevron-down text-light  ms-2 "></i>
-            </button> 
-       </div>
-    </div> 
-        <div class="get-started container p-4  m-1 ">
-            <h3 class=" mb-3">Get Started</h3>
-            <div class=" get-started__content  container  d-flex justify-content-around  ">
-            <div class="job text-center m-1 w-25 p-3 bg-body-secondary ">
-                <img  class=" rounded-circle" src="assets/img/job.png"/>
-                <h4>Jobs</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Sint eius, praesentium harum eligendi officiis voluptas?</p>
-                 <button class="border-0  w-100 rounded-1 mb-2">Add a job</button>
+            <div class="text-light fs-6 my-2 position-relative w-100 opacity-50">
+                <i class="fa-solid fa-angles-left position-absolute end-0"></i>
             </div>
-            <div class="run text-center m-1 w-25 p-3 bg-body-secondary  "> 
-                <img  class=" rounded-circle" src="assets/img/run.jpg"/>
-
-                <h4>Run</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                     Sint eius, praesentium harum eligendi officiis voluptas?</p>
-                 <button class="border-0  w-100 rounded-1 mb-2">Run a job</button></div>
-            <div class=" playbook w-25 m-1 text-center p-3 bg-body-secondary ">
-                <img  class=" rounded-circle" src="assets/img/playbook.png"/>
-
-                <h4>Playbooks</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Sint eius, praesentium harum eligendi officiis voluptas?</p>
-                 <button class="border-0 w-100 rounded-1 mb-2">Create a playbooks</button>
-            </div>
-            <div class="people  w-25 m-1 text-center p-3 bg-body-secondary ">
-                <img  class=" rounded-circle" src="assets/img/people.png"/>
-                <h4>People</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Sint eius, praesentium harum eligendi officiis voluptas?</p>
-                 <button  class="border-0   w-100  rounded-1 mb-2">Add a member</button>
+            <div class=" h-25 my-5 w-100 ">
+                <hr class="text-light"/>
+                <div class="d-flex justify-content-evenly">
+                    <span  class="text-light fs-6 p-2  opacity-50 ">
+                    23 of 200 <span class="text-light">Runs</span></span>
+                    <i class="fa-solid fa-gear  text-light fs-6 p-2 opacity-50"></i>
                 </div>
+                <div class=" loading  m-3 mt-0 d-flex">
+                    <div class="w-25  bg-light"></div>
+                    <div class="w-75 bg-light  opacity-50"></div>
+                   
                 </div>
-        </div>
-        <div class="recent-run container p-4  m-1  mt-2">
-            <div class="w-25  rounded-start-5 rounded-end-5 p-1 bg-body-secondary d-flex justify-content-evenly">
-                <button class="border-0 w-50 p-2 rounded-5">Resent runs</button>
-                <button class="border-0   bg-body-secondary w-50 p-2 rounded-5">Notifications</button>
+                <hr class="text-light"/>
+            </div>
+      
+      
+       </div>
+       <div class=" dashboard col-md-8 container p-5 bg-body-secondary">
+        <div class="row">
+            <div class="col-12  header  mb-3">
+                <div class="row">
+                    <div class="col-lg-10 col-sm-12">
+                        <h2 class="title">Dashboard</h2>
+                    </div>
+                    <div class="col-lg-2 col-sm-12 btn-group button-add ">
+                        <button class=" border-0 border-end rounded-start-1 ">
+                        <i class="fa fa-plus text-light "></i>
+                        <span class=" border-opacity-100 text-light border-light-subtle ">
+                            Add-job</span>
+                        </button>
+                        <button class=" border-0 rounded-end-1 ">
+                            <i class="fa-solid fa-chevron-down text-light  ms-2 "></i>
+                        </button> 
+                   </div>
+                </div>
+                
+               </div> 
+                <div class="col-12 get-started container p-4  m-1 ">
+                    <h3 class=" mb-3">Get Started</h3>
+                    <div class=" get-started__content  row  ">
+                    <div class="job text-center p-1 bg-body-secondary col-md-6  col-sm-12 col-lg-3">
+                        <img  class=" rounded-circle" src="assets/img/job.png"/>
+                        <h4>Jobs</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Sint eius, praesentium harum eligendi officiis voluptas?</p>
+                         <button class="border-0  w-100 rounded-1 mb-2">Add a job</button>
+                    </div>
+                    <div class="run text-center  p-1 bg-body-secondary  col-md-6 col-lg-3 col-sm-12"> 
+                        <img  class=" rounded-circle" src="assets/img/run.jpg"/>
+        
+                        <h4>Run</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                             Sint eius, praesentium harum eligendi officiis voluptas?</p>
+                         <button class="border-0  w-100 rounded-1 mb-2">Run a job</button></div>
+                    <div class=" playbook text-center p-1 bg-body-secondary col-md-6  col-lg-3 col-sm-12 ">
+                        <img  class=" rounded-circle" src="assets/img/playbook.png"/>
+        
+                        <h4>Playbooks</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Sint eius, praesentium harum eligendi officiis voluptas?</p>
+                         <button class="border-0 w-100 rounded-1 mb-2">Create a playbooks</button>
+                    </div>
+                    <div class="people text-center p-1 bg-body-secondary  col-md-6  col-lg-3 col-sm-12">
+                        <img  class=" rounded-circle" src="assets/img/people.png"/>
+                        <h4>People</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Sint eius, praesentium harum eligendi officiis voluptas?</p>
+                         <button  class="border-0   w-100  rounded-1 mb-2">Add a member</button>
+                        </div>
+                        </div>
+                </div>
+                <div class="col-12 recent-run container p-4  m-1  mt-2">
+                    
+                    <div class="w-25   rounded-start-5 rounded-end-5 p-3 bg-body-secondary ">
+                       <div class="row">
+                        <button class="border-0 col-sm-12 col-lg-6   rounded-5">Resent runs</button>
+                        <button class="border-0 col-sm-12  col-lg-6  bg-body-secondary   rounded-5" style="font-size: 15px;">Notifications</button>
+        
+                       </div>
+                       
+                    </div>
+                 <h3 class=" my-3">Resent runs</h3>
+                 <div class="overflow-x-auto">
+                    <table class="table">
+                        <tr>
+                          <th class="text-start ">job no.</th>
+                          <th class="text-start">ID</th>
+                          <th class="text-start">Hosts</th>
+                          <th class="text-start">Tags</th>
+                          <th class="text-start">Playbook name</th>
+                          <th class="text-start">Run By</th>
+                          <th class="text-start">Duration</th>
+                          <th class="text-start">Finished</th>
+                        </tr>
+                        <tr>
+                            <td >
+                                <div class=" row">
+                                    <div class="col-6 circle-div" >
+                                        <div class="  circle  border border-3 rounded-circle border-success "></div>  
 
-            </div>
-         <h3 class=" my-3">Resent runs</h3>
-            
-    <table class="table w-100 ">
-    <tr>
-      <th class="text-start ">job no.</th>
-      <th class="text-start">ID</th>
-      <th class="text-start">Hosts</th>
-      <th class="text-start">Tags</th>
-      <th class="text-start">Playbook name</th>
-      <th class="text-start">Run By</th>
-      <th class="text-start">Duration</th>
-      <th class="text-start">Finished</th>
-    </tr>
-    <tr>
-        <td >
-            <div class="d-flex justify-content-between w-50">
-                <div class=" circle  border border-3 rounded-circle border-success "></div>     
-                <span class="p-1 text-success">#12</span>
-            </div>
+                                    </div>
+                                    <div class="col-6 number" >
+                                        <span class=" text-success">#12</span>
+
+                                    </div>   
+                                </div>
+                               
+                                </td>
+                          <td>_77a3f34</td>
+                          <td> <label for="number">4</label>
+                            <select class="m-2" name="number" > </select>
+                            </td>
+                            <td>
+                                <label for="tags" class=" tag-lable bg-body-secondary p-1 border rounded-1">WEB</label>
+                                <select name="tags" class="m-1" ></select></td>
+                            <td>lamp_stack_haproxy</td>
+                            <td class="w-auto">
+                                <img  class="w-25 h-25 m-1 border border-0 rounded-circle" src="assets/img/james-person-1.jpg"/> 
+                                <span>Tommy</span></td>
+                                <td>13mins 22sec</td>
+                                <td>23min ago</td>
+                    
+                        </tr>
+                        <tr>
+                          <td>
+                            <div class="row">
+                                <div class="col-6 circle-div" >
+                                <div class=" circle  border border-3 rounded-circle border-warning ">
+                                </div>
+                                </div>
+                                <div class="col-6 number" > 
+                                    <span class="p-1 text-warning">#11</span></div>
+                               
+                            </div>
+                           </td>
+                          <td>_68odee8</td>
+                          <td>
+                             <label for="number">2</label>
+                            <select class="m-2" name="number"></select>
+                        </td>
+                            <td>
+                                <label for="tags" class=" tag-lable bg-body-secondary p-1 border rounded-1 ">AWS-DB</label>
+                                <select class="m-1" name="tags" ></select>
+                            </td>
+                                    <td>lamp_stack_haproxy</td>
+                                    <td class="w-auto">
+                                    <img src="assets/img/james-person-1.jpg" class=" border border-0 rounded-circle m-1 w-25 h-25 "/>
+                                    <span>Jonny</span>
+                                </td>
+                                    <td>12min 15sec</td>
+                                    <td>31min ago</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="row">
+                                    <div class="col-6 circle-div" >
+                                    <div class=" circle  border border-3 rounded-circle border-danger ">
+                                    </div>
+                                    </div>
+                                    <div class="col-6 number" >
+                                        <span class="p-1 text-danger">#10</span>
+
+                                </div>
+                                </div></td>
+                          <td>_68odee8</td>
+                          <td><label for="number">2</label>
+                            <select class="m-2" name="number"></select></td>
+                                <td><label for="tags" class=" tag-lable bg-body-secondary p-1 border rounded-1">BENCH</label>
+                                    <select class="m-1" name="tags"></select></td>
+                             <td>lamp_stack_haproxy</td>
+                             <td class="w-auto">
+                                <img class="  border border-0 rounded-circle w-25 m-1 h-25" src="assets/img/james-person-1.jpg"/><span>Tommy</span></td>
+                                <td>3min 10sec</td>
+                                <td>33 mins ago</td>
+                            </tr>
+                        <tr>
+                            <td>  
+                                 <div class="row">
+                                <div class="col-6 circle-div" >
+                                <div class=" circle  border border-3 rounded-circle border-dark-subtle ">
+                                </div>
+                                </div>
+                                <div class="col-6 number" > 
+                                    <span class="p-1 text-secondary">#15</span> </div>
+                                </div></td>
+                          <td>_68odee8</td>
+                          <td><label for="number">2</label>
+                            <select class="m-2" name="number" ></select></td>
+                                <td><label for="tags" class="tag-lable bg-body-secondary p-1 border rounded-1">TEST</label>
+                                    <select class="m-2" name="tags"></select></td>
+                              <td>lamp_stack_haproxy</td>
+                              <td class="w-auto">
+                                <img class="w-25 h-25 m-1 border border-0 rounded-circle" src="assets/img/james-person-1.jpg"/><span>Tommy</span></td>
+                                <td>23 mins 45sec</td>
+                                <td>43 min ago</td>
+                            </tr>
+                            <tr>
+                                <td>   
+                                    <div class="row">
+                                    <div class="col-6 circle-div" >
+                                    <div class=" circle  border border-3 rounded-circle border-success ">
+                                    </div>
+                                    </div>
+                                    <div class="col-6 number" >
+                                         <span class="p-1 text-success">#08</span></div>
+                                </div></td>
+                          <td>_68odee8</td>
+                          <td><label for="number">2</label>
+                            <select class="m-2" name="number" ></select></td>
+                                <td><label for="tags" class="tag-lable bg-body-secondary p-1 border rounded-1">BANK</label>
+                                    <select class="m-2" name="tags" ></select></td>
+                                <td>lamp_stack_haproxy</td>
+                                <td class="w-auto">
+                                <img class="w-25 h-25 m-1 border border-0 rounded-circle" src="assets/img/james-person-1.jpg"/><span>Tommy</span></td>
+                                    <td>2mins 45sec</td>
+                                    <td>56min ago</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-6 circle-div" >
+                                        <div class=" circle  border border-3 rounded-circle  border-success ">
+                                        </div>
+                                        </div>
+                                        <div class="col-6 number" >
+                                             <span class="p-1 text-success">#08</span></div>
+                               </div></td>
+                          <td>_68odee8</td>
+                          <td><label for="number">2</label>
+                            <select class="m-2" name="number" ></select></td>
+                          <td><label for="tags" class=" tag-lable bg-body-secondary p-1 border rounded-1">APPS</label>
+                            <select class="m-2" name="tags" ></select></td>
+                            <td>lamp_stack_haproxy</td>
+                            <td class="w-auto">
+                            <img class="w-25 h-25 m-1 border border-0 rounded-circle" src="assets/img/james-person-1.jpg"/><span>Tommy</span></td>
+                                <td>26 mins 27sec</td>
+                                <td>1 hour 12min ago</td>
+                        </tr>
+                      </table>
+                 </div>   
            
-            </td>
-      <td>_77a3f34</td>
-      <td> <label for="number">4</label>
-        <select class="m-2" name="number" > </select>
-        </td>
-        <td>
-            <label for="tags" class=" tag-lable bg-body-secondary p-1 border rounded-1">WEB</label>
-            <select name="tags" class="m-1" ></select></td>
-        <td>lamp_stack_haproxy</td>
-        <td class="w-auto">
-            <img  class="w-25 h-25 m-1 border border-0 rounded-circle" src="assets/img/james-person-1.jpg"/> 
-            <span>Tommy</span></td>
-            <td>13mins 22sec</td>
-            <td>23min ago</td>
-
-    </tr>
-    <tr>
-      <td>
-        <div class="d-flex justify-content-between w-50">
-        <div class=" circle  border border-3 rounded-circle border-warning "></div>
-        <span class="p-1 text-warning">#11</span></div></td>
-      <td>_68odee8</td>
-      <td> <label for="number">2</label>
-        <select class="m-2" name="number"></select></td>
-        <td><label for="tags" class=" tag-lable bg-body-secondary p-1 border rounded-1 ">AWS-DB</label>
-            <select class="m-1" name="tags" ></select></td>
-                <td>lamp_stack_haproxy</td>
-                <td class="w-auto">
-                <img src="assets/img/james-person-1.jpg" class=" border border-0 rounded-circle m-1 w-25 h-25 "/>
-                <span>Jonny</span></td>
-                <td>12min 15sec</td>
-                <td>31min ago</td>
-    </tr>
-    <tr>
-        <td>
-            <div class="d-flex justify-content-between w-50">
-
-            <div class=" circle  border border-3 rounded-circle border-danger "></div>
-            <span class="p-1 text-danger">#10</span>
-            </div></td>
-      <td>_68odee8</td>
-      <td><label for="number">2</label>
-        <select class="m-2" name="number"></select></td>
-            <td><label for="tags" class=" tag-lable bg-body-secondary p-1 border rounded-1">BENCH</label>
-                <select class="m-1" name="tags"></select></td>
-         <td>lamp_stack_haproxy</td>
-         <td class="w-auto">
-            <img class="  border border-0 rounded-circle w-25 m-1 h-25" src="assets/img/james-person-1.jpg"/><span>Tommy</span></td>
-            <td>3min 10sec</td>
-            <td>33 mins ago</td>
-        </tr>
-    <tr>
-        <td>     
-               <div class="d-flex justify-content-between w-50">
-            <div class=" circle  border border-3 rounded-circle border-dark-subtle "></div>
-            <span class="p-1 text-secondary">#15</span></div></td>
-      <td>_68odee8</td>
-      <td><label for="number">2</label>
-        <select class="m-2" name="number" ></select></td>
-            <td><label for="tags" class="tag-lable bg-body-secondary p-1 border rounded-1">TEST</label>
-                <select class="m-2" name="tags"></select></td>
-          <td>lamp_stack_haproxy</td>
-          <td class="w-auto">
-            <img class="w-25 h-25 m-1 border border-0 rounded-circle" src="assets/img/james-person-1.jpg"/><span>Tommy</span></td>
-            <td>23 mins 45sec</td>
-            <td>43 min ago</td>
-        </tr>
-        <tr>
-            <td>   
-                 <div class="d-flex justify-content-between w-50">
-                <div class=" circle  border border-3 rounded-circle border-success "></div>
-            <span class="p-1 text-success">#08</span></div></td>
-      <td>_68odee8</td>
-      <td><label for="number">2</label>
-        <select class="m-2" name="number" ></select></td>
-            <td><label for="tags" class="tag-lable bg-body-secondary p-1 border rounded-1">BANK</label>
-                <select class="m-2" name="tags" ></select></td>
-            <td>lamp_stack_haproxy</td>
-            <td class="w-auto">
-            <img class="w-25 h-25 m-1 border border-0 rounded-circle" src="assets/img/james-person-1.jpg"/><span>Tommy</span></td>
-                <td>2mins 45sec</td>
-                <td>56min ago</td>
-        </tr>
-        <tr>
-            <td><div class="d-flex justify-content-between w-50">
-                <div class=" circle  border border-3 rounded-circle border-success "></div>
-            <span class="p-1 text-success">#08</span></div></td>
-      <td>_68odee8</td>
-      <td><label for="number">2</label>
-        <select class="m-2" name="number" ></select></td>
-      <td><label for="tags" class=" tag-lable bg-body-secondary p-1 border rounded-1">APPS</label>
-        <select class="m-2" name="tags" ></select></td>
-        <td>lamp_stack_haproxy</td>
-        <td class="w-auto">
-        <img class="w-25 h-25 m-1 border border-0 rounded-circle" src="assets/img/james-person-1.jpg"/><span>Tommy</span></td>
-            <td>26 mins 27sec</td>
-            <td>1 hour 12min ago</td>
-    </tr>
-  </table>
+                </div>
         </div>
+       
+    </div>
     </div>
     </div>
       
