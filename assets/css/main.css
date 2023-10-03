@@ -89,18 +89,24 @@ hr{
 .footersection{
 height: 10%;
 }
+.job,.run,.playbook,.people{
+   
+  flex: 1 1 150px !important;
+  margin:5px;
+   
+}
 
-
-@media screen and  (min-width: 1200px) {
-    .job,.run,.people,.playbook{
-        margin-left:5px !important;
-    }
+/* @media screen and  (min-width: 1200px) {
+   
+   
     .job,.run,.playbook,.people{
-        width: 24.5% !important;
+      
+        margin-left:5px !important;
+        margin-top: 5px !important;
     }
     
 
-}
+} */
  @media screen and (min-width:799px) and (max-width: 992px) {
     .spikenode{
         width: 100% !important;
